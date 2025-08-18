@@ -44,12 +44,14 @@ The rapid spread of misinformation and fake news poses risks to society—impact
 
 ## 🧭 Workflow
 
+📥 Raw News Dataset → 🧹 Preprocessing → 🔡 TF-IDF → 🤖 Training → 📊 Evaluation
+
 ```mermaid
 flowchart TB
-  A[📥 Raw News Dataset] --> B[🧹 Text Preprocessing (Cleaning + Stemming)]
-  B --> C[🔡 TF-IDF Vectorization]
-  C --> D[🤖 Train Logistic Regression Model]
-  D --> E[📊 Evaluate Model & Predict Labels]
+  A[Raw News Dataset] --> B[Text Preprocessing]
+  B --> C[TF-IDF Vectorization]
+  C --> D[Train Logistic Regression Model]
+  D --> E[Evaluate Model & Predict Labels]
 ```
 
 ---
