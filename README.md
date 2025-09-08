@@ -90,9 +90,7 @@ python fake_news_prediction.py
 ### ✅ Sample Output
 
 ```
-Training Accuracy: 0.96  
-Test Accuracy: 0.93  
-Sample Prediction: REAL (Probability: 0.742)
+News is Real/Fake
 ```
 
 ---
